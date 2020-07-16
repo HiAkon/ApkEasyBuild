@@ -1,25 +1,37 @@
 # ApkEasyProtect 使用说明 #
 
+![add image](https://github.com/doaya/ApkEasyProtect/tree/master/image/*.png)
+
 一行命令实现AndResGuard资源文件混淆，360加固，Wall多渠道打包
 
-因基于JAVA,理论上不限平台（Windows/Linux）
+基于JAVA,理论上不限平台（Windows/Linux）
+
+我先吐槽：  
+1.小米商店上架。审核人员，呵呵，原生代码写的APK，驳回说是网页模板。申诉也不行。he tui！  
+2.oppo和vivo企业认证还停留在远古  
+
+## 背景
+多渠道打包后，360加固将渠道信息擦出，Walle推荐的解决方案[详情见：360加固失效](https://github.com/Meituan-Dianping/walle/wiki/360加固失效？)  
+1.需要python环境，可我不想配，废话电脑里已经这么多配置了
+2.那就造一个吧。
+3.半天时间匆匆写完，代码在code里，没什么注释，凑合看吧，反正你要的是工具。
 
 ## 先看效果
 ## 工具
-![Image](https://github.com/doaya/ApkEasyProtect/1.png)
-![Image](https://github.com/doaya/ApkEasyProtect/2.png)
-![Image](https://github.com/doaya/ApkEasyProtect/3.png)
-![Image](https://github.com/doaya/ApkEasyProtect/4.png)
-![Image](https://github.com/doaya/ApkEasyProtect/5.png)
-![Image](https://github.com/doaya/ApkEasyProtect/6.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image/1.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image//2.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image//3.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image//4.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image//5.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image//6.png)
 
 ## 命令行
-![Image](https://github.com/doaya/ApkEasyProtect/7.png)
-![Image](https://github.com/doaya/ApkEasyProtect/8.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image//7.png)
+![Image](https://github.com/doaya/ApkEasyProtect/tree/master/image//8.png)
 
 ## 前置条件：
-1.JDK环境变量  
-2.所有路径地址一定不要有空格，包括本工具目录！！！！
+1.JDK环境变量一定要配置！！！  
+2.路径地址一定不要有空格，包括本工具目录！！！！
 
 ## 配置
 tools\project目录下  
@@ -79,7 +91,7 @@ java -jar ApkEasyProtect.jar XXX.APK
 ## 如果多个工程？
 copy 上面的project，粘贴重命名NB1,安装上面的步骤重新配置
 
-java -jar ApkEasyProtect.jar NB 1 XXX.APK
+java -jar ApkEasyProtect.jar NB1 XXX.APK
 
 
 ## 致谢
