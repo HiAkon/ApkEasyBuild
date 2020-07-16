@@ -1,0 +1,91 @@
+{
+  "defaultExtraInfo": {
+  },
+  "channelInfoList": [
+    {
+      "channel": "360",
+      "excludeDefaultExtraInfo": true,
+      "alias": "360",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "baidu",
+      "excludeDefaultExtraInfo": true,
+      "alias": "百度",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "qq",
+      "excludeDefaultExtraInfo": true,
+      "alias": "应用宝",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "xiaomi",
+      "excludeDefaultExtraInfo": true,
+      "alias": "小米",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "huawei",
+      "excludeDefaultExtraInfo": true,
+      "alias": "华为",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "oppo",
+      "excludeDefaultExtraInfo": true,
+      "alias": "oppo",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "vivo",
+      "excludeDefaultExtraInfo": true,
+      "alias": "vivo",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "official",
+      "excludeDefaultExtraInfo": true,
+      "alias": "官网",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "kuan",
+      "excludeDefaultExtraInfo": true,
+      "alias": "酷安",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "ali",
+      "excludeDefaultExtraInfo": true,
+      "alias": "阿里",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "sougou",
+      "excludeDefaultExtraInfo": true,
+      "alias": "搜狗",
+      "extraInfo": {
+      }
+    },
+    {
+      "channel": "dev",
+      "excludeDefaultExtraInfo": true,
+      "alias": "开发测试",
+      "extraInfo": {
+        "devDevice": true
+      }
+    }
+  ]
+}

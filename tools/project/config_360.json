@@ -1,0 +1,9 @@
+{
+    "login":"360账号 密码",
+	"checkUpdate":true,
+    "config":"-x86",
+    "importsign":"签名文件带后缀 签名密码 别名 别名密码",
+    "config_so":"",
+    "config_assets":"",
+    "config_so_private":""
+}
